@@ -1,5 +1,5 @@
 -- =============================================================
--- STORED PROCEDURE 
+-- STORED PROCEDURES
 -- =============================================================
 DELIMITER // 
 CREATE PROCEDURE get_customer_order_details(in customerId int)
