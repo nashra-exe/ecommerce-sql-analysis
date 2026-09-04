@@ -37,6 +37,7 @@ The project demonstrates SQL skills ranging from basic querying and data validat
 
 ## Project Structure
 
+```text
 ecommerce-sql-analysis/
 ├── 00_ECOMMERCE SQL PROJECT.sql
 ├── 01_database_schema.sql
@@ -54,7 +55,7 @@ ecommerce-sql-analysis/
 ├── 13_triggers.sql
 ├── 14_stored_functions.sql
 └── README.md
-
+```
 
 ## Analysis Areas
 
