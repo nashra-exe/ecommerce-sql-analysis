@@ -51,7 +51,7 @@ ecommerce-sql-analysis/
 ├── 09_transactions_commit.sql
 ├── 10_indexes.sql
 ├── 11_views.sql
-├── 12_stored_procedures.sql
+├── 12_stored_procedure.sql
 ├── 13_triggers.sql
 ├── 14_stored_functions.sql
 └── README.md
