@@ -4,15 +4,16 @@
 
 This project analyzes an e-commerce database using SQL to explore customers, orders, products, sales, and purchasing behavior.
 
-The project demonstrates SQL skills ranging from basic querying to advanced analytical techniques.
+The project demonstrates SQL skills ranging from basic querying and data validation to advanced analytical techniques and database features.
 
 ## Objectives
 
 * Analyze customer purchasing behavior
 * Analyze product and sales performance
-* Calculate revenue and spending
+* Calculate revenue and customer spending
 * Identify top-performing products and customers
-* Use advanced SQL techniques for deeper analysis
+* Apply advanced SQL techniques for analytical queries
+* Explore database features used in SQL development
 * Validate and explore the database
 
 ## SQL Concepts Used
@@ -26,11 +27,16 @@ The project demonstrates SQL skills ranging from basic querying to advanced anal
 * Common Table Expressions (CTEs)
 * Window functions
 * Data validation
+* Transactions (COMMIT / ROLLBACK)
+* Indexes and EXPLAIN
+* Views
+* Stored procedures
+* Triggers
+* Stored functions
 * Exploratory analysis
 
 ## Project Structure
 
-```text
 ecommerce-sql-analysis/
 ├── 00_ECOMMERCE SQL PROJECT.sql
 ├── 01_database_schema.sql
@@ -41,8 +47,14 @@ ecommerce-sql-analysis/
 ├── 06_subquery_analysis.sql
 ├── 07_cte_analysis.sql
 ├── 08_window_function_analysis.sql
+├── 09_transactions_commit.sql
+├── 10_indexes.sql
+├── 11_views.sql
+├── 12_stored_procedures.sql
+├── 13_triggers.sql
+├── 14_stored_functions.sql
 └── README.md
-```
+
 
 ## Analysis Areas
 
@@ -66,6 +78,15 @@ ecommerce-sql-analysis/
 * CTEs for complex queries
 * Window functions for ranking and analytical calculations
 
+### Database Development Features
+
+* Transactions for safe data modifications
+* Indexes for query performance
+* Views for reusable queries
+* Stored procedures for reusable SQL operations
+* Triggers for automatic database actions
+* Stored functions for reusable calculations
+
 ## Key Skills Demonstrated
 
 * Relational database querying
@@ -74,6 +95,9 @@ ecommerce-sql-analysis/
 * Query structuring
 * Advanced SQL analytics
 * Data validation
+* Transaction management
+* Basic query optimization
+* Database objects and reusable SQL logic
 * Business-oriented data interpretation
 
 ## Tools
@@ -88,3 +112,4 @@ ecommerce-sql-analysis/
 * Improve database design
 * Add query optimization examples
 * Connect the database to Python for further analysis
+* Build a separate SQL Developer-focused database project
